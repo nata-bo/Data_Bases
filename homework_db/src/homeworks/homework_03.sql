@@ -1,7 +1,7 @@
 Задача 1. Вывести ко-во поставщиков не из UK и не из China
 
 SELECT
-	COUNT(*) AS total_not_usa_spain_suppliers
+	COUNT(*) AS total_not_uk_china_suppliers
 FROM Suppliers
 
 WHERE
